@@ -3,6 +3,10 @@
 
 #include <QWidget>
 #include "grid2.h"
+
+#include <QtWidgets>
+#include <QPushButton>
+
 class Widget2 : public QWidget
 {
     Q_OBJECT
@@ -16,6 +20,7 @@ protected:
     virtual void paintEvent(QPaintEvent *event)Q_DECL_OVERRIDE;
     Grid2* grid;
     QPoint m_mousPos;
+
 };
 
 #endif // WIDGET2_H

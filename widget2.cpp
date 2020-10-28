@@ -20,6 +20,7 @@ void Widget2::mouseDoubleClickEvent(QMouseEvent * event){
     QPoint mouse_position=event->pos();
 
     grid->mouseClickEvent(mouse_position);
+
     update();
 }
 
