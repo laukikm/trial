@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="QWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Widget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWidget.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Widget2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWidget2.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Window",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWindow.html"];
+}

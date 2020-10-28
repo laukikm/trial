@@ -1,0 +1,60 @@
+\hypertarget{classGrid}{}\section{Grid Class Reference}
+\label{classGrid}\index{Grid@{Grid}}
+
+
+Inheritance diagram for Grid\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGrid_a0a4e687c54a6eb44d03e217df2e58eb2}\label{classGrid_a0a4e687c54a6eb44d03e217df2e58eb2}} 
+{\bfseries Grid} (int height, int width, int n\+\_\+points\+\_\+x=20, int n\+\_\+points\+\_\+y=20)
+\item 
+\mbox{\Hypertarget{classGrid_a354c0dc7cd17d4a3d19c84322eb7a447}\label{classGrid_a354c0dc7cd17d4a3d19c84322eb7a447}} 
+void {\bfseries Display\+Points} (Q\+Painter \&p)
+\item 
+\mbox{\Hypertarget{classGrid_a17b9f23a4180daa63f3425828d4e6b6a}\label{classGrid_a17b9f23a4180daa63f3425828d4e6b6a}} 
+void {\bfseries Color\+Points} (Q\+Point center, int radius)
+\item 
+\mbox{\Hypertarget{classGrid_acdf98d8329c2d05be773b44ac28cb35c}\label{classGrid_acdf98d8329c2d05be773b44ac28cb35c}} 
+vector$<$ vector$<$ int $>$ $>$ {\bfseries Next\+Points} (vector$<$ int $>$ point, Q\+Point center, int radius)
+\item 
+\mbox{\Hypertarget{classGrid_a9ef37e85bef650f142fc354014ca4517}\label{classGrid_a9ef37e85bef650f142fc354014ca4517}} 
+vector$<$ int $>$ {\bfseries Nearest\+Point} (vector$<$ vector$<$ int $>$$>$ next\+\_\+points, Q\+Point center, int radius)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGrid_a8a3dbc83235e1918b66f2d841153d7fc}\label{classGrid_a8a3dbc83235e1918b66f2d841153d7fc}} 
+Q\+Point {\bfseries points} \mbox{[}20\mbox{]}\mbox{[}20\mbox{]}
+\item 
+\mbox{\Hypertarget{classGrid_a1c55c32dccad4f6a8c577100c98ead57}\label{classGrid_a1c55c32dccad4f6a8c577100c98ead57}} 
+int {\bfseries point\+\_\+size} =10
+\item 
+\mbox{\Hypertarget{classGrid_a8fe2aee2f22b403a9f4eea4fdb3bbf93}\label{classGrid_a8fe2aee2f22b403a9f4eea4fdb3bbf93}} 
+int {\bfseries n\+\_\+points\+\_\+x} =20
+\item 
+\mbox{\Hypertarget{classGrid_af92e897498b17ec49b092943eb1f705d}\label{classGrid_af92e897498b17ec49b092943eb1f705d}} 
+int {\bfseries n\+\_\+points\+\_\+y} =20
+\item 
+\mbox{\Hypertarget{classGrid_a807253e427d9d953841aa5f930b4bd0e}\label{classGrid_a807253e427d9d953841aa5f930b4bd0e}} 
+int {\bfseries start\+\_\+x}
+\item 
+\mbox{\Hypertarget{classGrid_adf11e85a1bc023395a55113ce4828e7b}\label{classGrid_adf11e85a1bc023395a55113ce4828e7b}} 
+int {\bfseries start\+\_\+y}
+\item 
+\mbox{\Hypertarget{classGrid_a289a1766e3bf1cc6e5bb7f0d1cb5ab0f}\label{classGrid_a289a1766e3bf1cc6e5bb7f0d1cb5ab0f}} 
+int {\bfseries dx}
+\item 
+\mbox{\Hypertarget{classGrid_a537fbb87e33088624c0f0deff84710d0}\label{classGrid_a537fbb87e33088624c0f0deff84710d0}} 
+int {\bfseries dy}
+\item 
+\mbox{\Hypertarget{classGrid_aaa552813bfb5d5f729b11b51e147cbd7}\label{classGrid_aaa552813bfb5d5f729b11b51e147cbd7}} 
+map$<$ vector$<$ int $>$, int $>$ {\bfseries Blue\+Color}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/laukik/trial/grid.\+h\item 
+/home/laukik/trial/grid.\+cpp\end{DoxyCompactItemize}
